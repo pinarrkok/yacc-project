@@ -1,0 +1,24 @@
+int hwGrade = 100;
+print hwGrade;
+
+char myFavLetter = 'A';
+printchar myFavLetter;
+
+int sum = 6 + 45;
+print sum;
+
+int isBigger = hwGrade > sum;
+print isBigger; # Returns 1 means True
+
+if (sum < hwGrade){
+	int sum = 4;
+	print sum;
+};
+
+while(sum > 2){
+	printchar 'P';
+	sum = sum - 1;
+};
+print sum; # New value of sum
+
+# This is a comment
